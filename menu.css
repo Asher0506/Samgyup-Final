@@ -1,0 +1,43 @@
+.itemsM{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 30px;  
+}
+
+.itemR img{
+    width: 100%;
+    height: 300px;
+    
+    cursor: pointer;
+    transition: 0.2s ease;
+    border: 3px solid white;
+    margin-top: 20px;
+}
+
+.itemR img:hover{
+    transform: scale(1.04);
+}
+
+.itemR h4{
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.itemR button{
+    padding: 5px 30px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+
+.itemR button:hover{
+    transform: scale(1.08);
+}

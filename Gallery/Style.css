@@ -1,0 +1,51 @@
+/*--top nav--*/
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(5, 5, 5);
+    height: 100px;
+    text-align: center;
+    padding-top: 25px; 
+    
+}
+
+.logo {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.topnav a:hover{
+    background-color: rgb(87, 85, 85);
+    color: rgb(10, 9, 9);
+}
+
+.topnav a {
+    color: white;
+    padding: 40px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+/*--Gallery--*/
+
+.gallery{
+	padding: 80px 0px;
+}
+img{
+	max-width: 100%;
+}
+.gallery img{
+	background: #fff;
+	padding: 5px;
+	width: 100%;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-popup .modal-img{
+	width: 100%;
+}

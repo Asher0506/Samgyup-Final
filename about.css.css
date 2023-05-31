@@ -1,0 +1,24 @@
+.section_title {} .section_subtitle{
+    margin-bottom: 7px;
+    padding-left: 7px;
+    font-size: 50px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    border-left: 3px solid #bfa67a;
+    font-size: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section_main_title{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    line-height: 1.27;
+    font-weight: 300;
+}
+
+.section_main_title strong{
+     font-weight: 600;
+}
+

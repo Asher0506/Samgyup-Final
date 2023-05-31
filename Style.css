@@ -1,0 +1,208 @@
+/*--top nav--*/
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(5, 5, 5);
+    height: 100px;
+    text-align: center;
+    padding-top: 25px; 
+    
+}
+
+.logo {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.topnav a:hover{
+    background-color: rgb(87, 85, 85);
+    color: rgb(10, 9, 9);
+}
+
+.topnav a {
+    color: white;
+    padding: 40px;
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+.slider-frame{
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+/*--slider animation--*/
+
+.img-container {
+    height: 800px;
+    width: 1500px;
+    position: center;
+    float: left;
+}
+
+.text {
+
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+
+/*--Menu animation--*/
+
+.card {
+    height: 400px;
+    margin: 0px;
+    overflow: hidden;
+    border: 0;
+}
+
+
+h1 {
+    margin: 10px;
+    font-size: 40px;
+}
+
+-p {
+    font-size: 20px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+ .card:hover{
+    cursor: pointer;
+ }
+
+
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover img{
+    transform: scale(1.1) rotate(.2deg);
+}
+
+
+
+
+
+
+/*--reviewstyle--*/
+
+.container-fluid{
+    margin-top: 0;
+}
+
+.testcard{
+    width: 100%;
+    height: 400px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    border: none;
+    background-color: inherit;
+}
+
+.testcard .box{
+    position: absolute;
+    color: #262626;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    border: 3px solid gray;
+    background: #fff;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    backface-visibility: hidden;
+}
+
+.testcard .box.front{
+    background-image: url(p2.jpg);
+    background-repeat: no-repeat;
+}
+
+.testcard .box.front,
+.testcard .box.back{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testcard .box.front img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #262626;
+    margin-bottom: 30px;
+}
+
+
+
+.testcard:hover .box.front{
+    transform: rotateY(180deg);
+}
+
+.box.front h2{
+    font-family: bebeas neue;
+}
+
+.box.front h4{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.socials{
+    margin: 0 15px;
+}
+
+.testcard .box.back{
+    position: absolute;
+    background-image: url(p1.jpg);
+    transform: rotateY(180deg);
+    padding: 20px 30px;
+    text-align: center;
+    user-select: none;
+}
+
+.testcard .box.back .bi-quote{
+    position: absolute;
+    top: 15px;
+    position: center;
+    font-size: 30px;
+}
+
+.testcard:hover .box.back{
+    transform: rotateY(360deg);
+}
+
+
+/*--Gallery--*/
+
+.gallery{
+	padding: 80px 0px;
+}
+img{
+	max-width: 100%;
+}
+.gallery img{
+	background: #fff;
+	padding: 5px;
+	width: 100%;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-popup .modal-img{
+	width: 100%;
+}
