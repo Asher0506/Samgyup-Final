@@ -61,21 +61,39 @@
 <body style="background-color: black;">
 
     <!--dashboard-->
-<div style="background-color: black;">   
-    <div class="logo"><a href="Index.html"><img src="Images/Logo.jpg" width="200px"></a></div>
-
-     <div class="topnav" style="text-align: center; background-color: black;">       
-        <nav>
-            <a href="Index.html" style="font-size: 25px;">Home</a>
-            <a href="menu.html" style="font-size: 25px;">Menu</a>
-            <a href="gallery.html" style="font-size: 25px;">Gallery</a>
-            <a href="about.html.html" style="font-size: 25px;">About</a> 
-            <li class="list-inline-item" style="text-align: right;">
-              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 30px; align-items: end;"><i class="bi bi-cart"></i></a>
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="Logo.jpg" style="height: 80px; " alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto" style="font-size: 30px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
-        </nav>      
-        
-     </div>    
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html.html">About</a>
+            <li class="nav-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 30px; align-items: end;"><i class="bi bi-cart"></i></a>
+            </li>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>    
+  </div>
+
 
      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -117,7 +135,6 @@
           </div>
 
 
-        </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
