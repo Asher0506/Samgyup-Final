@@ -1,35 +1,14 @@
-/*--top nav--*/
-
-.topnav {
-    overflow: hidden;
-    background-color: rgb(5, 5, 5);
-    height: 100px;
-    text-align: center;
-    padding-top: 25px;    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.logo {
-    position: absolute;
-    margin-top: 10px;
-    margin-left: 90px;
-}
-
-.topnav a:hover{
-    background-color: rgb(87, 85, 85);
-    color: rgb(10, 9, 9);
-}
-
-.topnav a {
-    color: white;
-    padding: 40px;
-    margin-top: 100px;
-    text-decoration: none;
-}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
 
-/*--Get in touch--*/
- 
+
 .container{
+    width: 60%;
     padding: 45px;
     border-radius: 0;
     position: absolute;
@@ -45,13 +24,13 @@
     padding: 20px;
 }
 .col-md-5{
-    background: #0b2d50;
+    background: #084b8f;
     padding: 20px;
     color: white;
 
 }
 .form-control {
-    height: 50px;
+    height: 52px;
     background: #fff;
     color: #000;
     font-size: 14px;
@@ -66,6 +45,50 @@
 }
 .d-flex p{
     font-size: 18px;
-    padding-left: 20px;
+    padding-left: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+@media only screen and (max-width:600px){
+    .container{
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 90%;
+    }
+}
+
+
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover {
+  background-color: #FFACB7;
+  color: #fff;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding: 0.6em;
+  }
+  .navbar .navbar-brand {
+    padding: 0 0.6em;
+  }
+  @media only screen and (min-width: 992px) {
+    .navbar {
+      padding: 0;
+    }
+    .navbar .navbar-nav .nav-link {
+      padding: 1em 0.7em;
+    }
+    .navbar .navbar-brand {
+      padding: 0 0.8em;
+    }
+  }
+
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0.7em;
+    transition: all 0.5s;
+  }
