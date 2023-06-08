@@ -56,9 +56,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: green;
-  border: 5px solid #b2bfff;
-  color: #fff;
+  background: #ffc107;
+  border: 1px solid black;
+  color: black;
   margin-left: -20px;
   margin-right: 10px;
   transform: scale(1.2);
