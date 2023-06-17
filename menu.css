@@ -28,8 +28,8 @@
 .itemR button{
     padding: 5px 30px;
     border: none;
-    background-color: green;
-    color: white;
+    background-color: #ffc107;
+    color: black;
     cursor: pointer;
     border-radius: 5px;
     font-size: 20px;
